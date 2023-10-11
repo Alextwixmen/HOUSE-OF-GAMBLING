@@ -1,0 +1,47 @@
+.footer {
+  width: 100%;
+  border: 4px solid $main-blue;
+  border-bottom: none;
+  border-radius: 64px 64px 0px 0px;
+  padding: 40px 140px 24px 140px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1640px;
+    margin: 0 auto;
+  }
+}
+.footer-links {
+  cursor: pointer;
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  &__link {
+    color: $primary-text-color;
+    line-height: 20px;
+  }
+}
+.footer-links li:first-child a:first-child {
+  border-bottom: 1px solid $main-blue;
+  color: $main-blue;
+}
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-end;
+  &__button {
+    background-color: transparent;
+    border: none;
+  }
+  &__list {
+    display: flex;
+    gap: 8px;
+  }
+  &__title {
+    line-height: 20px;
+  }
+}
